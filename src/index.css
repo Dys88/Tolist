@@ -1,13 +1,73 @@
-body {
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  height: 100vh;
+  background: rgb(79, 106, 136);
+  text-align: center;
+  align-items: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(92, 34, 89) 0%,
+    rgb(128, 131, 156) 100%
+  );
+}
+.todo_style
+
+h1{
+  color: aliceblue;
+  background: transparent;
+  background-color: tomato;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: teal;
+}
+input{
+text-align: center;
+height: 30px;
+top: 10px;
+border: none;
+background: transparent;
+font-size: 15px;
+font-weight: 500;
+width: 30%;
+border-bottom:2px solid rgba(100, 115, 255, 1);
+outline: red;
+}
+.button {
+ min-height: 10%;
+ min-width: 0rem;
+ 
+}
+button:hover{
+  background-color: turquoise;
+}
+ol {
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0%;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  min-height: 40px;
+  display:flex;
+  align-items:left;
+  color:violet;
+  text-transform: capitalize;
 }
